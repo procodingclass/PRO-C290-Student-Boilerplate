@@ -75,9 +75,15 @@ def move_bot(a = 0, b = 0, c = 0, d = 0, e = 0, f = 0,
 move_bot()
 
 
-
 #  method to add delay
+def add_delay(delay_time_steps):
 
+    time_counter = 0
+    while bot.step(timestep)  !=  -1:
+        if time_counter  >=  delay_time_steps:
+            break
+        
+        time_counter += 1
 
 
 
